@@ -11,7 +11,7 @@ public:
 	Drive(void);
 	~Drive(void);
 	
-	void SetMotors(float, float);
+	void SetMotors(float, float); // SPEED_ROTATION gets passed to this function in order to turn
 	void SetMotors(float, float, float, float);
 	void StopMotors(void);
 	
